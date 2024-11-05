@@ -1,0 +1,63 @@
+.imagebackground {
+    background-image: url(../../Assets/Home/background.svg);
+    background-repeat: no-repeat;
+}
+
+.mobilebackground {
+    background-image: url(../../Assets/Home/mobile-exp-background.svg);
+    background-repeat: no-repeat;
+}
+
+li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #767676;
+}
+
+.li::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #00AD57;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+span {
+    color: #00AD57;
+    margin: 0 8px;
+    font-weight: 600;
+}
+
+.features-li:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-image: url(../../Assets/Features/tick.svg);
+    background-size: cover;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+.features-prof-li {
+    color: white;
+}
+
+.features-prof-li::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-image: url(../../Assets/Features/tick-white.svg);
+    background-size: cover;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+.plan-card {
+    box-shadow: 1px 1px 6px 4px #DCDCDC33;
+}
